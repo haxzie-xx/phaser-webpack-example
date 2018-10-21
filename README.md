@@ -10,9 +10,9 @@ $ git clone https://github.com/haxzie/phaser-webpack-example.git
 ```sh
 $ npm install
 ```
-Make sure you have `serve` installed
+### Serve with hot reload
 ```sh
-$ npm i -g serve
+$ npm run dev
 ```
 ### Building the game
 ```sh
@@ -26,9 +26,4 @@ $ npm i -g gh-pages
 Deploy to GitHub pages, You should enable the GitHub pages option directly from the settings of the GitHub repository.
 ```sh
 $ npm run deploy
-```
-### Serve the project for development
-Ps. This doesn't include HOT Reload, u might need to restart to see the changes.
-```sh
-$ npm run serve
 ```
