@@ -1,0 +1,36 @@
+{
+  "name": "phaser-game1",
+  "version": "1.0.0",
+  "description": "Learning phaser with webpack",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "deploy": "webpack && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/haxzie/phaser-webpack-example.git"
+  },
+  "keywords": [
+    "phaser",
+    "webpack",
+    "game",
+    "example"
+  ],
+  "author": "haxzie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haxzie/phaser-webpack-example/issues"
+  },
+  "homepage": "https://github.com/haxzie/phaser-webpack-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
